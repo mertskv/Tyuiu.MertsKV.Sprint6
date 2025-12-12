@@ -28,9 +28,9 @@ namespace Tyuiu.MertsKV.Sprint6.Task7.V12.Lib
                 string[] line_r = lines[i].Split(';');
                 for (int j = 0; j < columns; j++)
                 {
-                    if (arrayValues[i, 9] != 10)
+                    if (arrayValues[i, 8] != 10)
                     {
-                        arrayValues[i, 9] = 0;
+                        arrayValues[i, 8] = 0;
                     }
                 }
             }
